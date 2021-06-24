@@ -1,0 +1,33 @@
+.root{
+    width: 250px;
+    height: auto;
+}
+.poster{
+    width: 250px;
+    height: 400px;
+}
+.row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}
+@media (min-width:540px) and (max-width:768px){
+    .root-responsive{
+        width: 250px;
+        height: auto;
+        margin-left: -10px;
+    }
+  }
+@media (min-width:769px) and  (max-width:1024px){
+    .root-responsive{
+        width: 250px;
+        height: auto;
+        margin-left: -30px;
+    }
+}
+@media (max-width:540px){
+    .root-responsive{
+        width: 250px;
+        height: auto;
+        margin: 0 10% 0 10%;
+    }
+}

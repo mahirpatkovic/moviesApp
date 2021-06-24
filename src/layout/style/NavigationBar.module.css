@@ -1,0 +1,30 @@
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    padding: 0;
+    width: auto;
+  }
+  
+  .nav li {
+    margin-left: 1.5rem;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: black;
+    background-color: #a1a1a1;
+    margin:5%;
+    padding: 5px;
+    border-radius: 5%;
+  }
+  
+  .nav a:hover,
+  .nav a:active,
+  .nav a.active {
+    color: black;
+    background-color: white;
+  }
